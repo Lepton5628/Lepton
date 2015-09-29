@@ -4,12 +4,12 @@
   "description": "Lepton game.",
   "main": "index.js",
   "dependencies": {
-      "@deps/uglify": "*",
-      "@deps/coffee-script": "*",
-      "@deps/less": "*",
-      "@deps/cson": "*",
-      "@deps/grunt": "*",
-      "@deps/grunt-cli": "*"
+      "less": "*",
+      "cson": "*",
+      "coffee-script": "*",
+      "uglify": "*",
+      "grunt": "*",
+      "grunt-cli": "*"
   },
   "devDependencies": {
   },
