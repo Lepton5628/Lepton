@@ -1,0 +1,35 @@
+{
+  "name": "lepton",
+  "version": "0.0.1",
+  "description": "Lepton game.",
+  "main": "index.js",
+  "dependencies": {
+      "@deps/uglify": "*",
+      "@deps/coffee-script": "*",
+      "@deps/less": "*",
+      "@deps/cson": "*",
+      "@deps/grunt": "*",
+      "@deps/grunt-cli": "*"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo 'exit 0' | /bin/sh",
+    "start": "./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lepton5628/Lepton.git"
+  },
+  "author": "cmura81 and hopeofsolace",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lepton5628/Lepton/issues"
+  },
+  "homepage": "https://github.com/Lepton5628/Lepton#readme",
+  "bin": {
+      "lepton": "./index.js",
+      "build": "./build.js",
+      "compendium": "./Compendium.js"
+  }
+}
